@@ -14,7 +14,7 @@ fetch(urlUno)
             const siteName = element.center
             const lat = element.location.latitude
             const lon = element.location.longitude
-            const apiKey = 'fbc503b9b374492ab4914412241810'
+            const apiKey = API_KEY
             const urlDos = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`
             const li = document.createElement('li')
             parentItem.appendChild(li)
