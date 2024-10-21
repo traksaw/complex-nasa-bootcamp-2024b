@@ -1,0 +1,75 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+body {
+  background-color: black;
+  font-family: "DotGothic16", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+h1 {
+  font-size: 50px;
+}
+
+li {
+  list-style: none;
+  font-size: 26px;
+}
+.introSection {
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  text-align: center;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+@media screen and (min-width: 820px) {
+  .introSection > h1 {
+    font-size: 48px;
+  }
+  li {
+    font-size: 15px;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  .introSection > h1 {
+    font-size: 48px;
+  }
+  li {
+    font-size: 15px;
+  }
+
+}
+@media screen and (min-width: 430px) {
+  .introSection > h1 {
+    font-size: 48px;
+  }
+  li {
+    font-size: 15px;
+  }
+
+}
